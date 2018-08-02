@@ -14,3 +14,7 @@ echo "After checking the above output for any problems, start a new iTerm sessio
 echo "Rebooting is only necessary for keyboard repeat settings to work."
 
 echo
+
+echo "Finally, setting zsh as default shell"
+chsh -s /usr/local/bin/zsh
+echo "Et voilà"
