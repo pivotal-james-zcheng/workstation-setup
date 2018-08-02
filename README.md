@@ -32,6 +32,9 @@ This project does not aim to do everything. Some examples:
 Open up Terminal.app and run the following commands:
 
 ```sh
+# New installations of High Sierra will require you to accept the license to use git
+sudo xcodebuild -license accept
+
 mkdir -p ~/workspace
 cd ~/workspace
 git clone https://github.com/pivotal-sg/workstation-setup.git
