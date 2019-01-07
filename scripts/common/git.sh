@@ -3,7 +3,7 @@ echo "Installing Git and associated tools"
 brew install git
 brew tap git-duet/tap
 brew install git-duet
-brew install gitup
+brew cask install gitup
 
 echo
 echo "Setting global Git configurations"
