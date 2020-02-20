@@ -13,7 +13,12 @@ git clone https://github.com/Bash-it/bash-it.git ~/.bash_it
 cp files/add_user_initials_to_git_prompt_info.bash ~/.bash_it/custom
 cp files/bobby_pivotal/bobby_pivotal.theme.bash ~/.bash_it/themes/bobby/bobby.theme.bash
 cp files/cf_cli.completion.bash ~/.bash_it/completion/available
+
 ~/.bash_it/install.sh --silent
+
+# For autojump
+echo "[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh" >> ~/.bash_profile
+
 source ~/.bash_profile
 source ~/.bash_it/bash_it.sh
 bash-it enable completion git
