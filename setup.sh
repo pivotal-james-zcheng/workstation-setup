@@ -6,7 +6,7 @@
 #   - a list of components to install, see scripts/opt-in/ for valid options
 #
 # Environment variables:
-#   - SKIP_ANALYTICS:  Set this to 1 to not send usuage data to our Google Analytics account 
+#   - SKIP_ANALYTICS:  Set this to 1 to not send usage data to our Google Analytics account
 #
 
 # Fail immediately if any errors occur
@@ -31,7 +31,6 @@ source ${MY_DIR}/scripts/common/homebrew.sh
 source ${MY_DIR}/scripts/common/configuration-bash.sh
 
 # Place any applications that require the user to type in their password here
-brew tap caskroom/cask
 brew cask install github
 brew cask install zoomus
 

@@ -15,6 +15,8 @@ echo "`defaults write org.shiftitapp.ShiftIt multipleActionsCycleWindowSizes YES
 echo
 brew cask install dash
 brew cask install postman
+brew cask install quicklook-json
+
 brew cask install alfred
 
 # Terminals
@@ -29,7 +31,6 @@ brew cask install firefox
 # Communication
 
 brew cask install slack
-brew cask install skype
 
 # Text Editors
 
@@ -38,5 +39,6 @@ brew cask install sublime-text
 brew cask install textmate
 brew cask install macvim
 brew cask install jetbrains-toolbox --force # guard against pre-installed jetbrains-toolbox
-
+brew cask install visual-studio-code
+brew cask install atom
 set -e

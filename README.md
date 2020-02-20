@@ -47,13 +47,10 @@ If you're setting up an engineering machine choose which languages to install:
 
 ```sh
 # For Labs developers (remove unnecessary languages when running command)
-./setup.sh java ruby node golang c docker
+./setup.sh java ruby node golang python c docker
 
 # For Data developers
 ./setup.sh c golang java docker
-
-# If you want java 8, you can use
-./setup.sh java8
 
 # For .net
 ./setup.sh dotnet
@@ -76,7 +73,7 @@ In addition to the Engineering applications, this script also installs the list 
 If you're setting up a machine for the XP workshop run the following:
 
 ```sh
-./setup.sh java8 node
+./setup.sh java node
 ```
 
 ## Analytics
